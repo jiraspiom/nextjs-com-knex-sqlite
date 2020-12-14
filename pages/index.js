@@ -21,7 +21,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Bem vindo ao teste knex com sqlite
+          Bem vindo ao teste knex com sqlite com migrate
         </h1>
 
         <h2 className="todos-title">Todos</h2>
