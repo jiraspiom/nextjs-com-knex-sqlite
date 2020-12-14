@@ -8,6 +8,8 @@ exports.up = async function (knex) {
   await knex('todos').insert([
     { text: 'Buy milk', done: true },
     { text: 'Wash car', done: false },
+    { text: 'validando', done: false},
+    { text: 'outra coisa', done: false},
   ])
 }
 
